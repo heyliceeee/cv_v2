@@ -12,13 +12,13 @@ const App = () => {
     <div id="portfolio" style={{margin: '40px'}}>
       <Row gutter={{xs: 8, sm: 16, md: 24, lg: 32}}>
         <Col className='gutter-row' span={24} style={{border: '1px solid #000' }}>
-          <Title>Alice Dias</Title>
+          <Title className='ant-typography-title' style={{fontWeight: 'bold'}}>Alice Dias</Title>
         </Col>
       </Row>
 
       <Row gutter={{xs: 8, sm: 16, md: 24, lg: 32}}>
         <Col className='gutter-row' span={6} style={{ border: '1px solid #000' }}>
-          <Sidebar />
+          <Sidebar/>
         </Col>
 
         <Col className='gutter-row' span={18} style={{ border: '1px solid #000' }}>
