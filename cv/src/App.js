@@ -1,23 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import { Typography, Col, Row } from 'antd';
 
-function App() {
+import Sidebar from './components/Sidebar';
+import MainContent from './components/MainContent';
+
+
+const App = () => {
+  const { Title } = Typography;
+  
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div id="portfolio" style={{margin: '40px'}}>
+      <Row gutter={{xs: 8, sm: 16, md: 24, lg: 32}}>
+        <Col className='gutter-row' span={24} style={{border: '1px solid #000' }}>
+          <Title>Alice Dias</Title>
+        </Col>
+      </Row>
+
+      <Row gutter={{xs: 8, sm: 16, md: 24, lg: 32}}>
+        <Col className='gutter-row' span={6} style={{ border: '1px solid #000' }}>
+          <Sidebar />
+        </Col>
+
+        <Col className='gutter-row' span={18} style={{ border: '1px solid #000' }}>
+          <MainContent />
+        </Col>
+      </Row>
     </div>
   );
 }
