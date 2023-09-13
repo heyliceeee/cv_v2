@@ -1,9 +1,18 @@
 body {
     background-color: #271B31;
-  }
+ }
   
   .ant-typography-title {
     background: linear-gradient(90deg, rgba(250,82,82,1) 0%, rgba(221,36,118,1) 98%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-  }
+    font-weight: bold;
+}
+
+#portfolio {
+  margin: 40px;
+}
+
+#col {
+  border: 1px solid #000;
+}

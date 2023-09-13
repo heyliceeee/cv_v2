@@ -11,19 +11,19 @@ const App = () => {
   const { Title } = Typography;
   
   return (
-    <div id="portfolio" style={{margin: '40px'}}>
+    <div id="portfolio">
       <Row gutter={{xs: 8, sm: 16, md: 24, lg: 32}}>
         <Col className='gutter-row' span={24}>
-          <Title className='ant-typography-title' style={{fontWeight: 'bold'}}>Alice Dias</Title>
+          <Title className='ant-typography-title'>Alice Dias</Title>
         </Col>
       </Row>
 
-      <Row gutter={{xs: 8, sm: 16, md: 24, lg: 32}}>
-        <Col className='sidebar' span={6}>
+      <Row gutter={{xs: 8, sm: 16, md: 24, lg: 32}} >
+        <Col span={6} bordered>
           <Sidebar/>
         </Col>
 
-        <Col className='gutter-row' span={18} style={{ border: '1px solid #000' }}>
+        <Col id='col' className='gutter-row' bordered span={18}>
           <MainContent />
         </Col>
       </Row>

@@ -1,3 +1,30 @@
 .information {
     background-color: #1d1d1d;
+    border: #111;
+
+    .ant-btn {
+        background-color: #111;
+        border-color: #111;
+    }
+}
+
+#text {
+    color: #a6a6a6;
+}
+
+#paragraph {
+    color: #FFF;
+    font-size: 16px;
+}
+
+#phoneInformation {
+    color: #e93b81;
+}
+
+#mailInformation {
+    color: #c17ceb;
+}
+
+#pinInformation {
+    color: #6ab5b9;
 }
