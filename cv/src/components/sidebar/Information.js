@@ -1,6 +1,8 @@
 import React from 'react'
 
-import { Typography, Col, Row, Button } from 'antd';
+import '../../styles/sidebar/Information.css';
+
+import { Typography, Col, Row, Button, Divider } from 'antd';
 import { PhoneOutlined, MailOutlined, CompassOutlined } from '@ant-design/icons';
 
 
@@ -20,6 +22,8 @@ const Information = () => {
             </Col>  
         </Row>
 
+        <Divider style={{ margin: '10px 0', backgroundColor: '#FFF' }}/>
+
         <Row gutter={{xs: 8, sm: 16, md: 24, lg: 32}} justify="center">
             <Col className='gutter-row' span={5} align="center">
                 <Button size='large' icon={<MailOutlined />}/>
@@ -31,6 +35,8 @@ const Information = () => {
             </Col>  
         </Row>
 
+        <Divider style={{ margin: '10px 0' , backgroundColor: '#FFF' }}/>
+
         <Row gutter={{xs: 8, sm: 16, md: 24, lg: 32}} justify="center">
             <Col className='gutter-row' span={5} align="center">
                 <Button size='large' icon={<CompassOutlined />}/>
@@ -41,6 +47,8 @@ const Information = () => {
                 <Paragraph strong>Santo Tirso, Porto, Portugal</Paragraph>
             </Col>  
         </Row>
+
+        <Divider style={{ margin: '10px 0' , backgroundColor: '#FFF' }}/>
     </>
   )
 }
