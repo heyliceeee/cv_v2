@@ -2,11 +2,11 @@ import React from 'react'
 
 import '../../styles/sidebar/Information.css';
 
-import { Typography, Col, Row, Button, Divider, Card } from 'antd';
+import { Typography, Col, Row, Button, Card } from 'antd';
 import { PhoneOutlined, MailOutlined, CompassOutlined } from '@ant-design/icons';
 
 
-const { Text, Paragraph, Title } = Typography;
+const { Text, Paragraph } = Typography;
 
 const Information = () => {
   return (

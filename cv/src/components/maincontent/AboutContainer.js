@@ -2,7 +2,7 @@ import React from 'react'
 
 import '../../styles/maincontent/AboutContainer.css'
 
-import { Row, Typography, Divider, Col } from 'antd'
+import { Row, Typography, Col } from 'antd'
 
 const { Paragraph, Title } = Typography;
 
