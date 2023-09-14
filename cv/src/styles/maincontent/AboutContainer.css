@@ -1,0 +1,20 @@
+.aboutcontainer {
+
+}
+
+#title {
+    color: #fff;
+    margin-top: 10px;
+}
+
+#paragraph {
+    color: #a6a6a6;
+}
+
+#gradient {
+    background: linear-gradient(90deg, rgba(250,82,82,1) 0%, rgba(221,36,118,1) 98%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+    font-size: large;
+}
