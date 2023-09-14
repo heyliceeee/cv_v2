@@ -12,34 +12,34 @@ const Information = () => {
   return (
     <>
         <Card className='information'>
-            <Row gutter={{xs: 8, sm: 16, md: 24, lg: 32}} justify="center">
-                <Col className='gutter-row' span={5} align="left">
+            <Row justify="center">
+                <Col className='gutter-row' xs={21} sm={17} md={13} lg={9} xl={5} align="left">
                     <Button id='phoneInformation' size='large' icon={<PhoneOutlined />}/>
                 </Col>
 
-                <Col className='gutter-row' span={19} align="left">
+                <Col className='gutter-row' xs={3} sm={7} md={11} lg={15} xl={19} align="left">
                     <Text id='text'>Telemóvel</Text>
                     <Paragraph id='paragraph' strong>+351 9xx xxx xxx</Paragraph>
                 </Col> 
             </Row>
 
-            <Row gutter={{xs: 8, sm: 16, md: 24, lg: 32}} justify="center">
-                <Col className='gutter-row' span={5} align="center">
+            <Row justify="center">
+                <Col className='gutter-row' xs={21} sm={17} md={13} lg={9} xl={5} align="left">
                     <Button id='mailInformation' size='large' icon={<MailOutlined />}/>
                 </Col>    
 
-                <Col className='gutter-row' span={19} align="left">
+                <Col className='gutter-row' xs={3} sm={7} md={11} lg={15} xl={19} align="left">
                     <Text id='text'>E-mail</Text>
                     <Paragraph strong id='paragraph'>alicedias2002@hotmail.com</Paragraph>
                 </Col>  
             </Row>
 
-            <Row gutter={{xs: 8, sm: 16, md: 24, lg: 32}} justify="center">
-                <Col className='gutter-row' span={5} align="center">
+            <Row justify="center">
+                <Col className='gutter-row' xs={21} sm={17} md={13} lg={9} xl={5} align="left">
                     <Button id='pinInformation' size='large' icon={<CompassOutlined />}/>
                 </Col>    
 
-                <Col className='gutter-row' span={19} align="left">
+                <Col className='gutter-row' xs={3} sm={7} md={11} lg={15} xl={19} align="left">
                     <Text id='text'>Localização</Text>
                     <Paragraph strong id='paragraph'>Santo Tirso, Porto, Portugal</Paragraph>
                 </Col>  

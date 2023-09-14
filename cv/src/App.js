@@ -14,7 +14,7 @@ const App = () => {
     <div id="portfolio">
       <Row gutter={{xs: 8, sm: 16, md: 24, lg: 32}}>
         <Col className='gutter-row' span={24}>
-          <Title className='ant-typography-title'>Alice Dias</Title>
+          <Title className='ant-typography-title' level={1}>Alice Dias</Title>
         </Col>
       </Row>
 
@@ -23,7 +23,7 @@ const App = () => {
           <Sidebar/>
         </Col>
 
-        <Col id='col' className='gutter-row' bordered span={18}>
+        <Col bordered span={18}>
           <MainContent />
         </Col>
       </Row>
