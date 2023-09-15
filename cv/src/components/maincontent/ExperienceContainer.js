@@ -2,7 +2,7 @@ import React from 'react'
 
 import '../../styles/maincontent/ExperienceContainer.css'
 
-import { Row, Typography, Col, Card, Image, Divider, Tag, Button } from 'antd'
+import { Row, Typography, Col, Card, Divider, Tag, Button } from 'antd'
 import { MoreOutlined } from '@ant-design/icons';
 
 const { Paragraph, Title } = Typography;
@@ -107,6 +107,8 @@ const ExperienceContainer = () => {
             </Card>
         </Col>
       </Row>
+
+      <br/>
     </>
   )
 }
