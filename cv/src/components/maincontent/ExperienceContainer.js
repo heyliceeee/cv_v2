@@ -46,6 +46,12 @@ const ExperienceContainer = () => {
               </Row>
 
               <Row>
+                <Col className='gutter-row' span={24}>
+                  <Paragraph id='paragraph2'>mar 2022 - jul 2022 • 5 meses</Paragraph>
+                </Col>
+              </Row>
+
+              <Row>
                 <Divider />
                 <Col id='colTags' className='gutter-row' span={24} align="left">
                   <Tag color="red">C#</Tag>
@@ -73,13 +79,19 @@ const ExperienceContainer = () => {
 
               <Row>
                 <Col className='gutter-row' span={24}>
-                  <Title id='title4' level={5}>ANPRI - Associação Nacional de Professores de Informática </Title>                
+                  <Title id='title4' level={5}>ANPRI - Associação Nacional de Professores de Informática</Title>                
                 </Col>
               </Row>
 
               <Row>
                 <Col className='gutter-row' span={24}>
                   <Paragraph id='paragraph'>Foi realizado uma app mobile de contactos com funcionalidades de email, chamadas, SMS e integração com o Maps.</Paragraph>
+                </Col>
+              </Row>
+
+              <Row>
+                <Col className='gutter-row' span={24}>
+                  <Paragraph id='paragraph2'>abr 2020 - mai 2020 • 2 meses</Paragraph>
                 </Col>
               </Row>
 

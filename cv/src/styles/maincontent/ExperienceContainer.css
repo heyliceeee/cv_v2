@@ -1,6 +1,6 @@
 .experience {
-    background-color: #111;
-    border-color: #a6a6a6;
+    background-color: #1d1d1d;
+    border: #111;
 
     .ant-divider {
         background-color: #a6a6a6;
@@ -42,7 +42,13 @@
 
 #btn {
     margin: -5px;
-    background-color: #111;
-    border-color: #111;
+    background-color: #1d1d1d;
+    border-color: #1d1d1d;
     color: #fff;
+}
+
+#paragraph2 {
+    color: #a6a6a6;
+    margin-left: 5px;
+    font-size: 13px;
 }
