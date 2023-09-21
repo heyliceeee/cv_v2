@@ -56,7 +56,7 @@ const EducationContainer = () => {
                 </Col>
               </Row>
             </Card>
-        </Col>
+      </Col>
 
         <Col className='gutter-row' span={2} gutter={{xs: 8, sm: 16, md: 24, lg: 32}}></Col>
 
@@ -97,7 +97,7 @@ const EducationContainer = () => {
                 </Col>
               </Row>
             </Card>
-         </Col>
+        </Col>
       </Row>
 
       <br/>
