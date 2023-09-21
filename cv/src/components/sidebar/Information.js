@@ -30,7 +30,7 @@ const Information = () => {
 
                 <Col className='gutter-row' xs={3} sm={7} md={11} lg={15} xl={19} align="left">
                     <Text id='text'>E-mail</Text>
-                    <Paragraph strong id='paragraph'>uremail@email.com</Paragraph>
+                    <Paragraph strong id='paragraph'>uremail@email3.09.com</Paragraph>
                 </Col>  
             </Row>
 
